@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Grade Checker</title>
+    
+</head>
+<body>
+    <div class="card container shadow m-5 p-3">
+        <h2>Grade App</h2>
+            <div class="form-group">
+                <input onblur="gradeChecker()" type="text" placeholder="Enter Score" id="grade" class="form-control">
+            </div>
+<!--             
+            <div class="form-group">
+                <button  type="button" class="btn btn-outline-danger">Check Grade</button>
+            </div> -->
+        
+        <div id="error" class="alert alert-danger"></div>
+        <div id="warning" class="alert alert-warning"></div>
+      <div id="success" class="alert alert-success"></div>
+    </div>
+    <script src="./js/grade.js"></script>
+</body>
+</html>
