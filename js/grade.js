@@ -1,10 +1,10 @@
 let gradeChecker = () => {
     let thresh_hold = 100;
 
-    let grade = document.getElementById('grade').value;
-    let error = document.getElementById('error');
-    let success = document.getElementById('success');
-    let warning = document.getElementById('warning');
+    let grade = document.querySelector('grade').value;
+    let error = document.querySelector('error');
+    let success = document.querySelector('success');
+    let warning = document.querySelector('warning');
 
     if(grade && grade > thresh_hold){
         error.style.display ='none';
