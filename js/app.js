@@ -1,4 +1,4 @@
-function audioMoney(){
+const audioMoney = () => {
    
    let result = document.querySelector('#result');
    let error = document.querySelector('#error');
